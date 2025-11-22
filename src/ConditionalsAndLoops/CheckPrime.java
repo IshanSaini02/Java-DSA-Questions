@@ -7,14 +7,50 @@ public class CheckPrime {
         Scanner sc = new Scanner(System.in);
         int digit = sc.nextInt();
 
-        for(int i = 2; i <= digit-1; i++){
+        for(int i = 1; i*i <= digit; i++){
             if(digit%2 == 1){
                 System.out.println(digit + " is a prime number");
                 break;
-            }else {
+            }
+            else {
                 System.out.println(digit + " is not a prime number");
                 break;
             }
         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//        for(int i = 2; i <= digit-1; i++){
+//            if(digit%2 == 1){
+//                System.out.println(digit + " is a prime number");
+//                break;
+//            }else {
+//                System.out.println(digit + " is not a prime number");
+//                break;
+//            }
+//        }
+
+
     }
 }
