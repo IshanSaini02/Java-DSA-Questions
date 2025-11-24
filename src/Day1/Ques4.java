@@ -1,4 +1,4 @@
-package Procodrr;
+package Day1;
 
 import java.util.Scanner;
 

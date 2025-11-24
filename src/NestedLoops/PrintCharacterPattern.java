@@ -12,8 +12,12 @@ public class PrintCharacterPattern {
                 System.out.print(ch);
             }
             ch++;
+            if(ch > 'Z'){
+                ch = 'A';
+            }
             System.out.println();
         }
+
     }
 }
 

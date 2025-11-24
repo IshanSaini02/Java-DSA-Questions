@@ -1,6 +1,5 @@
-package Procodrr;
+package Day1;
 
-import javax.swing.*;
 import java.util.Scanner;
 
 public class Ques6 {
